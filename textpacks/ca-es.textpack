@@ -1,4 +1,4 @@
-#@version 4.5.7;1436878580
+#@version 4.5.7;1436965171
 #@admin
 add_new_author => Afegeix nou autor
 and_mailed_to => i enviat a
@@ -81,6 +81,7 @@ concurrent_edit_by => L’article NO s’ha desat. {author} ha modificat l’art
 date_settings =>
 excerpt_markup => HTML del resum
 expires => Caduca
+invalid_postdate =>
 meta => Meta
 no_articles_recorded => Cap article registrat
 or_publish_at => o publica en
@@ -493,6 +494,7 @@ delete_form_confirmation => confirma per esborrar el formulari
 edit_forms => modifica formularis
 forms_deleted => Formularis esborrats: {list}.
 form_already_exists => El formulari <strong>{name}</strong> ja existeix.
+form_clone =>
 form_code =>
 form_created => S’ha creat el formulari <strong>{name}</strong>.
 form_name => Nom del formulari (necessari)
@@ -766,6 +768,7 @@ year_month_day_title => /any/mes/dia/títol
 ago => abans
 all => Tots
 already_exists => ja existeix
+any => Qualsevol
 articles => Articles
 articles_found => articles trobats
 article_context =>
