@@ -1,4 +1,4 @@
-#@version 4.5.7;1436878580
+#@version 4.5.7;1436965486
 #@admin
 add_new_author => Nový autor
 and_mailed_to => a odeslán na
@@ -81,6 +81,7 @@ concurrent_edit_by => Článek <strong>nebyl</strong> uložen. {author} upravova
 date_settings => Datum a čas
 excerpt_markup => Značky anotace
 expires => Vyprší
+invalid_postdate =>
 meta => Meta
 no_articles_recorded => Nenalezeny žádné články.
 or_publish_at => nebo počkat do
@@ -493,6 +494,7 @@ delete_form_confirmation => Opravdu odstranit formu
 edit_forms => Úpravy forem
 forms_deleted => Formy odstraněny: <strong>{list}</strong>.
 form_already_exists => Forma <strong>{name}</strong> již existuje.
+form_clone => Duplikovat formu
 form_code => Kód formuláře
 form_created => Forma <strong>{name}</strong> vytvořena.
 form_name => Název (povinný)
@@ -766,6 +768,7 @@ year_month_day_title => /rok/měsíc/den/název
 ago => zpět
 all => Všechny
 already_exists => již existuje
+any => Kdykoliv
 articles => Články
 articles_found => článků nalezeno
 article_context => článek
@@ -838,7 +841,7 @@ error_file_context => Značky souborů nelze užít mimo kontext souboru.
 error_image_context => Značky obrázků nelze užít mimo kontext obrázku.
 error_link_context => Značky odkazů nelze užít mimo kontext odkazu.
 error_section_context => Značky rubrik nemohou být použity mimo kontext rubrik.
-exact => Přesný
+exact => přesný
 extensions => Rozšíření
 file_context => soubor
 file_size => Velikost souboru
@@ -1014,7 +1017,7 @@ config_php_does_not_match_input => Soubor s nastavením <code>config.php</code> 
 config_php_not_found => Nebylo lze nalézt soubor s nastavením: <strong>{file}</strong>. Ověř, prosím, že skutečně existuje.
 core_theme => Vzhled administračního prostředí: {theme}
 create_config => Vytvoř soubor <code>config.php</code> s následujícím obsahem a pomocí FTP ho nahraj do adresáře <code>/textpattern/</code>.
-creating_config => Vytvářím config.php soubor
+creating_config => Vytvářím <code>config.php</code> soubor
 creating_db_tables => Vytvářím databázové tabulky
 db_cant_connect => Nelze se připojit k databázi
 db_connected => Spojeno
