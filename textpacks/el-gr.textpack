@@ -1,4 +1,4 @@
-#@version 4.5.7;1436878580
+#@version 4.5.7;1436966503
 #@admin
 add_new_author => Προσθήκη νέου χρήστη
 and_mailed_to => και απεστάλη στον/στη
@@ -81,6 +81,7 @@ concurrent_edit_by =>
 date_settings => Ρυθμίσεις ημερομηνίας
 excerpt_markup => Σημειοθέτηση αποσπάσματος
 expires => λήξη
+invalid_postdate =>
 meta => Μέτα
 no_articles_recorded => Δεν υπάρχουν άρθρα.
 or_publish_at => ή να δημοσιευτεί στις
@@ -387,7 +388,7 @@ low => λίγες
 magic_quotes => Magic quotes (PHP)
 missing_files => Αρχεία που απουσιάζουν
 modified_files => Κάποια αρχεία του Textpattern έχουν τροποποιηθεί
-mod_rewrite_missing => Το άρθρωμα mod_rewrite του Apache δεν είναι εγκατεστημένο
+mod_rewrite_missing => Το άρθρωμα <code>mod_rewrite</code> του Apache δεν είναι εγκατεστημένο
 mysql_table_errors =>
 no_temp_dir =>
 old_files => Κάποια αρχεία του Textpattern ανήκουν σε προηγούμενές του εκδόσεις
@@ -493,6 +494,7 @@ delete_form_confirmation => επιβεβαίωση διαγραφής φόρμα
 edit_forms => επεξεργασία φορμών
 forms_deleted => Διαγραφείσες φόρμες: <strong>{list}</strong>.
 form_already_exists => Η φόρμα <strong>{name}</strong> υπάρχει ήδη.
+form_clone =>
 form_code =>
 form_created => Η φόρμα <strong>{name}</strong> δημιουργήθηκε.
 form_name => Όνομα φόρμας (απαραίτητο)
@@ -766,6 +768,7 @@ year_month_day_title => /χρόνος/μήνας/μέρα/τίτλος
 ago => πριν
 all => Όλα
 already_exists => υπάρχει ήδη
+any => Οποιαδήποτε
 articles => Άρθρα
 articles_found => άρθρα βρέθηκαν
 article_context =>
