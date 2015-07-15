@@ -1,4 +1,4 @@
-#@version 4.5.7;1436878580
+#@version 4.5.7;1436978840
 #@admin
 add_new_author => Añadir nuevo autor
 and_mailed_to => y enviado a
@@ -81,6 +81,7 @@ concurrent_edit_by => Artículo <strong>no</strong> guardado. {author} ha modifi
 date_settings => Fecha y hora
 excerpt_markup => Marcado del resumen
 expires => Caduca
+invalid_postdate => Fecha de publicación no válida
 meta => Meta
 no_articles_recorded => Ningún artículo guardado.
 or_publish_at => …o publicar en
@@ -493,6 +494,7 @@ delete_form_confirmation => confirma el borrado del bloque
 edit_forms => Plantillas de bloque
 forms_deleted => Bloques borrados: <strong>{list}</strong>.
 form_already_exists => El bloque <strong>{name}</strong> ya existe.
+form_clone => Duplicar el bloque
 form_code => Código de bloque
 form_created => El bloque <strong>{name}</strong> se ha creado.
 form_name => Nombre (requerido)
@@ -695,7 +697,7 @@ install_language => Instalar idioma
 install_textpack => Instalar Textpack
 is_dst => ¿Activar horario de verano?
 language => Idioma
-lastmod_keepalive => ¿Compensar el bug mod_deflate para las conexiones persistentes?
+lastmod_keepalive => ¿Compensar el bug <code>mod_deflate</code> para las conexiones persistentes?
 leave_text_untouched => Dejar el texto sin tocar
 link => Enlace
 locale => Local
@@ -766,6 +768,7 @@ year_month_day_title => /año/mes/día/titulo
 ago => atrás
 all => Todos
 already_exists => ya existe
+any => Indistinto
 articles => Artículos
 articles_found => artículos encontrados
 article_context => artículo
@@ -1014,7 +1017,7 @@ config_php_does_not_match_input => Los contenidos de <code>config.php</code> no 
 config_php_not_found => No se ha encontrado el archivo de configuración en el lugar esperado <strong>{file}</strong>. Por favor, comprueba de nuevo que existe.
 core_theme => Principal: {theme}
 create_config => Crea un archivo llamado <code>config.php</code> en el directorio <code>/textpattern/</code> y pega en él lo siguiente:
-creating_config => Creando el archivo config.php
+creating_config => Creando el archivo <code>config.php</code>
 creating_db_tables => Creando las tablas de la base de datos
 db_cant_connect => No se puede conectar a la base de datos
 db_connected => Conectado
