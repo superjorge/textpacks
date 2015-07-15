@@ -1,4 +1,4 @@
-#@version 4.5.7;1436878580
+#@version 4.5.7;1436965030
 #@admin
 add_new_author => Dodaj novog autora
 and_mailed_to => i poslat na
@@ -81,6 +81,7 @@ concurrent_edit_by =>
 date_settings =>
 excerpt_markup => Obilježavanje izvoda
 expires => Ističe
+invalid_postdate =>
 meta => Meta
 no_articles_recorded => Nijedan članak nije snimljen.
 or_publish_at => …ili izdat u
@@ -378,8 +379,8 @@ file_uploads_disabled => Onemogućeno postavljanje datoteka
 gd_info => {version}; Podržani formati: {supported}.
 gd_library => GD Graphics Library
 high => Puno
-htaccess_contents => .htaccess datoteka sadrži
-htaccess_missing => Nedostaje .htaccess datoteka
+htaccess_contents => <code>.htaccess</code> datoteka sadrži
+htaccess_missing => Nedostaje <code>.htaccess</code> datoteka
 img_dir_read_only => Mapa slika je samo za čitanje (read-only)
 is_inaccessible => je nedostupan
 last_update => Posljednje ažuriranje
@@ -493,6 +494,7 @@ delete_form_confirmation => Potvrdite brisanje formulara
 edit_forms => Predlošci formulara
 forms_deleted => Formulari obrisani: <strong>{list}</strong>.
 form_already_exists => Formular <strong>{name}</strong> već postoji.
+form_clone =>
 form_code =>
 form_created => Formular <strong>{name}</strong> kreiran.
 form_name => Ime (obavezno)
@@ -766,6 +768,7 @@ year_month_day_title => /godina/mjesec/dan/naslov
 ago => prije
 all => Svi
 already_exists => već postoji
+any => Bilo koji
 articles => Članci
 articles_found => pronađeno članaka
 article_context =>
